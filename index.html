@@ -9,12 +9,25 @@
   <body>
     <header>
       <a class="logo" href="index.html" title="Retornar a página inicial">
-        <img src="img/bussola-branca.png" alt="Bussóla Branca" />
+        <img
+          class="logo-mobile"
+          src="img/bussola-branca.png"
+          alt="Bussóla Branca"
+        />
+        <img
+          class="logo-desktop"
+          src="img/logo-desktop.png"
+          alt="Logo branco"
+        />
       </a>
       <div class="navigation-menu">
-        <img src="img/menu-branco.png" alt="Menu Branco" />
+        <label for="menu">
+          <img src="img/menu-branco.png" alt="Menu Branco" />
+        </label>
+        <input type="checkbox" id="menu" hidden />
+
         <nav>
-          <ul>
+          <ul class="list-links">
             <li>
               <a href="blog.html" target="_blank" title="Acessar blog">Blog</a>
             </li>
