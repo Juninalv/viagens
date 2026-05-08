@@ -35,11 +35,11 @@
   position: relative;
 }
 
-/* SERA A IMG DO FOOTER (FIM DA PAGINA).travel-packages.bottom-hero .hero-img {
+.travel-packages.bottom-hero .hero-img {
   height: 400px;
-  background: url(../img/bottom-hero-mobile.png) no-repeat;
+  background: url(../img/bottom-hero-mobile-pacotes.png) no-repeat;
   background-size: cover;
-} */
+}
 
 .travel-packages .hero-content {
   padding: 65px 24px;
@@ -65,7 +65,6 @@
   line-height: 32px;
 }
 
-
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -77,6 +76,10 @@
     height: 400px;
     background: url(../img/bottom-hero-tablet.png) no-repeat;
     background-size: cover;
+  }
+
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/bottom-hero-tablet-pacotes.png) no-repeat;
   }
 
   .hero h2 {
