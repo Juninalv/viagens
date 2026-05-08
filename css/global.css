@@ -81,10 +81,18 @@ section.bottom-hero {
   font-weight: var(--title-weight);
 }
 
+.text-content-pacotes h2 {
+  font-size: 40px;
+}
+
 .content-text {
   font-size: 20px;
   font-weight: var(--text-weight);
   line-height: 32px;
+}
+
+.section-title .destino-excursao {
+  padding: 88px 0 0 0;
 }
 
 .button {
