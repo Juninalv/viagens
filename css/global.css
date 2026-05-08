@@ -91,9 +91,9 @@ section.bottom-hero {
   line-height: 32px;
 }
 
-/* .section-title .destino-excursao {
-  padding: 88px 0 0 0;
-} */
+.section-title .destino-excursao {
+  padding: 20px 0 0 0;
+}
 
 .button {
   min-width: 280px;

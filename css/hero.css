@@ -108,8 +108,9 @@
   }
 
   .travel-packages.bottom-hero .hero-img {
+    height: 620px;
     background: url(../img/bottom-hero-desktop-pacotes.png) no-repeat;
-    height: 600px;
+    background-size: cover;
   }
 
   .bottom-hero .hero-img {
