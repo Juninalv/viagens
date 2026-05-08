@@ -82,7 +82,7 @@ section.bottom-hero {
 }
 
 .text-content-pacotes h2 {
-  font-size: 40px;
+  font-size: 28px;
 }
 
 .content-text {
@@ -91,9 +91,9 @@ section.bottom-hero {
   line-height: 32px;
 }
 
-.section-title .destino-excursao {
+/* .section-title .destino-excursao {
   padding: 88px 0 0 0;
-}
+} */
 
 .button {
   min-width: 280px;

@@ -32,7 +32,6 @@
   height: 460px;
   background: url(../img/pacote-japao-mobile.png) no-repeat;
   background-size: cover;
-  position: relative;
 }
 
 .travel-packages.bottom-hero .hero-img {
@@ -78,10 +77,6 @@
     background-size: cover;
   }
 
-  .travel-packages.bottom-hero .hero-img {
-    background: url(../img/bottom-hero-tablet-pacotes.png) no-repeat;
-  }
-
   .hero h2 {
     padding: 88px 60px;
     font-size: 32px;
@@ -97,14 +92,24 @@
   }
   .travel-packages .hero-img {
     height: 620px;
-    background: url(../img/pacote-japao-tablet.png) no-repeat;
+    background: url(../img/bottom-hero-tablet-pacotes.png) no-repeat;
     background-size: cover;
   }
 }
 @media screen and (min-width: 1024px) {
+  .hero .hero-img {
+    height: 620px;
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
   .travel-packages .hero-img {
     background: url(../img/pacote-japao-desktop.png) no-repeat;
     background-size: cover;
+  }
+
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/bottom-hero-desktop-pacotes.png) no-repeat;
+    height: 600px;
   }
 
   .bottom-hero .hero-img {

@@ -24,15 +24,27 @@
   background-size: cover;
 }
 
+.payments .content-container .image-gallery .image.second {
+  background: url(../img/passaport.png) no-repeat;
+  background-size: cover;
+}
 .payments .content-container .image-gallery-pacotes .image.second {
   background: url(../img/pacotes-pagamento-2.png) no-repeat;
   background-size: cover;
 }
+.payments .content-container .image-gallery .image.image.third {
+  background: url(../img/pessoas.png) no-repeat;
+  background-size: cover;
+}
+
 .payments .content-container .image-gallery-pacotes .image.third {
   background: url(../img/pacotes-pagamento-3.png) no-repeat;
   background-size: cover;
 }
 
+.payments .image-gallery .image.colspan-2 {
+  grid-column: span 2;
+}
 .payments .image-gallery-pacotes .image.colspan-2 {
   grid-column: span 2;
 }
@@ -43,12 +55,27 @@
     background-size: cover;
   }
 
+  .payments .content-container .image-gallery-pacotes .image.first {
+    background: url(../img/pacotes-pagamento-desktop-1.png) no-repeat;
+    background-size: cover;
+  }
+
   .payments .content-container .image-gallery .image.second {
     background: url(../img/passaport-tablet.png) no-repeat;
     background-size: cover;
   }
-  .payments .content-container .image-gallery .image.third {
+
+  .payments .content-container .image-gallery-pacotes .image.second {
+    background: url(../img/pacotes-pagamento-desktop-2.png) no-repeat;
+    background-size: cover;
+  }
+  .payments .content-container .image-gallery .image.image.third {
     background: url(../img/pessoas-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
+  .payments .content-container .image-gallery-pacotes .image.third {
+    background: url(../img/pacotes-pagamento-desktop-3.png) no-repeat;
     background-size: cover;
   }
 }
