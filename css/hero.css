@@ -113,6 +113,28 @@
     background-size: cover;
   }
 
+<<<<<<< main
+=======
+  .travel-packages.bottom-hero .hero-img {
+    background: url(../img/bottom-hero-desktop-pacotes.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .travel-contact.bottom-hero .hero-img {
+    height: 620px;
+    background: url(../img/bottom-hero-contact-desktop.png) no-repeat;
+    background-size: cover;
+    height: 600px;
+  }
+
+  .travel-contact .hero-img {
+    height: 620px;
+    background: url(../img/hero-contact-desktop.png) no-repeat;
+    background-size: cover;
+  }
+
+>>>>>>> local
   .hero h2 {
     padding: 88px 120px;
   }
