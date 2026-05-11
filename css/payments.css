@@ -19,6 +19,16 @@
   background-size: cover;
 }
 
+.payments .content-container .image-gallery .image.second {
+  background: url(../img/passaport.png) no-repeat;
+  background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.third {
+  background: url(../img/pessoas.png) no-repeat;
+  background-size: cover;
+}
+
 .payments .content-container .image-gallery-pacotes .image.first {
   background: url(../img/pacotes-pagamento-1.png) no-repeat;
   background-size: cover;
@@ -31,6 +41,10 @@
 .payments .content-container .image-gallery-pacotes .image.third {
   background: url(../img/pacotes-pagamento-3.png) no-repeat;
   background-size: cover;
+}
+
+.payments .content-container .image-gallery .image.colspan-2 {
+  grid-column: span 2;
 }
 
 .payments .image-gallery-pacotes .image.colspan-2 {
