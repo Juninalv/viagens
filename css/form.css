@@ -1,0 +1,71 @@
+.form {
+  padding: 40px 20px;
+}
+
+.contact-form {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #d9d9d9;
+  padding: 10px 0;
+  font-size: 16px;
+  outline: none;
+  background: transparent;
+}
+
+.form-group textarea {
+  border: 2px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 12px;
+  resize: none;
+}
+
+.form-group label {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  color: #999;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+/* efeito quando clica */
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #d60000;
+}
+
+.form-group input:focus + label,
+.form-group input:valid + label,
+.form-group textarea:focus + label,
+.form-group textarea:valid + label {
+  top: -14px;
+  font-size: 12px;
+  color: #d60000;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 6px;
+  background: #d60000;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}

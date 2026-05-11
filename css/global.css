@@ -91,6 +91,13 @@ section.bottom-hero {
   line-height: 32px;
 }
 
+.content-text-contact {
+  font-size: 16px;
+  font-weight: var(--text-weight);
+  line-height: 28px;
+  text-align: center;
+}
+
 .section-title .destino-excursao {
   padding: 88px 0 0 0;
 }
