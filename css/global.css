@@ -116,6 +116,10 @@ section.bottom-hero {
   text-align: center;
 }
 
+.form .img-item {
+  background: url(../img/tokyo-blog.png);
+}
+
 @media screen and (min-width: 768px) {
   section {
     width: 648px;
