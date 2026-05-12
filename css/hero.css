@@ -205,6 +205,21 @@
     background: url(../img/hero-contact-tablet.png) no-repeat;
     background-size: cover;
   }
+
+  /* BLOG */
+  .travel-blog .hero-content {
+    padding: 210px 70px 107px;
+  }
+  .travel-blog .hero-content p {
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 600px;
+  }
+  .travel-blog .hero-img {
+    height: 620px;
+    background: url(../img/hero-tablet-blog.png) no-repeat;
+    background-size: cover;
+  }
 }
 @media screen and (min-width: 1024px) {
   .travel-packages .hero-img {

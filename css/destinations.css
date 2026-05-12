@@ -80,7 +80,41 @@
   .destinations .button {
     width: 280px;
   }
+  .destinations .item.acomodacao .img-item {
+    background: url(../img/tokyo-blog-tablet.png);
+    background-size: cover;
+  }
+
+  .destinations .item.hiroshima .img-item {
+    background: url(../img/Hiroshima-tablet-blog.png);
+    background-size: cover;
+  }
+
+  .destinations .item.item.kyoto .img-item {
+    background: url(../img/Kyoto-tablet-blog.png);
+    background-size: cover;
+  }
+
+  .destinations .item.chegada .chegada-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .destinations .item.chegada .content-text {
+    width: 312px;
+    margin-bottom: 0;
+    line-height: 32px;
+  }
+
+  .destinations .item.chegada .img-item {
+    width: 312px;
+    height: 360px;
+    flex-shrink: 0;
+  }
 }
+
 @media screen and (min-width: 1024px) {
   .destinations {
     width: 900px;
