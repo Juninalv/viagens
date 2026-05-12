@@ -6,6 +6,7 @@
   align-items: flex-start;
   padding: 38px 48px;
   position: relative;
+  z-index: 1000;
 }
 
 a.logo {
@@ -26,6 +27,10 @@ a.logo {
   margin-top: 24px;
 }
 
+.menu-toggle {
+  display: none;
+}
+
 input[type="checkbox"]:checked ~ nav {
   display: block;
   position: absolute;
@@ -33,6 +38,7 @@ input[type="checkbox"]:checked ~ nav {
   left: 0;
   width: 100%;
   background-color: var(--background-tertiary-color);
+  z-index: 1001;
 }
 
 nav {
