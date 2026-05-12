@@ -107,6 +107,49 @@
   line-height: 32px;
 }
 
+/* BLOG */
+
+.travel-blog .hero {
+  margin-bottom: 88px;
+}
+
+.travel-blog .hero-img {
+  height: 460px;
+  background: url(../img/hero-blog.png) no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.travel-blog.bottom-hero .hero-img {
+  height: 400px;
+  background: url(../img/bottom-hero-blog.png) no-repeat;
+  background-size: cover;
+}
+
+.travel-blog .hero-content {
+  padding: 65px 24px;
+}
+
+.travel-blog .hero-content h1 {
+  font-size: 48px;
+  color: var(--text-secondary-color);
+}
+
+.travel-blog .hero-content hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--button-secondary-color);
+  border: none;
+  margin: 16px 0 32px;
+}
+
+.travel-blog .hero-content p {
+  font-size: 20px;
+  color: var(--text-secondary-color);
+  font-weight: var(--text-weight);
+  line-height: 32px;
+}
+
 @media screen and (min-width: 768px) {
   .hero .hero-img {
     height: 620px;
@@ -193,7 +236,7 @@
     background: url(../img/hero-contact-desktop.png) no-repeat;
     background-size: cover;
   }
-  
+
   .hero h2 {
     padding: 88px 120px;
   }
