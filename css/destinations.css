@@ -123,6 +123,33 @@
     width: 100%;
     height: 452px;
   }
+
+  .destinations .item.acomodacao .img-item {
+    background: url(../img/tokyo-desktop-blog.png);
+    background-size: cover;
+  }
+
+  .destinations .item.hiroshima .img-item {
+    background: url(../img/Hiroshima-desktop-blog.png);
+    background-size: cover;
+  }
+
+  .destinations .item.item.kyoto .img-item {
+    background: url(../img/Kyoto-desktop-blog.png);
+    background-size: cover;
+  }
+
+  .destinations .item.chegada .content-text {
+    width: 588px;
+    margin-bottom: 0;
+    line-height: 32px;
+  }
+
+  .destinations .item.chegada .img-item {
+    width: 588px;
+    height: 360px;
+    flex-shrink: 0;
+  }
 }
 @media screen and (min-width: 1440px) {
   .destinations {

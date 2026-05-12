@@ -252,6 +252,12 @@
     background-size: cover;
   }
 
+  .travel-blog .hero-img {
+    height: 620px;
+    background: url(../img/hero-desktop-blog.png) no-repeat;
+    background-size: cover;
+  }
+
   .hero h2 {
     padding: 88px 120px;
   }
